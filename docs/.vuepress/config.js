@@ -3,7 +3,7 @@ const htmlModules = require('./config/htmlModules.js');
 
 module.exports = {
   title: "Zephyr's Repository",
-  description: 'Personal blog', // 描述,以 <meta> 标签渲染到页面html中
+  description: 'Repository', // 描述,以 <meta> 标签渲染到页面html中
   base: '/', // '/<github仓库名>/'， 默认'/' 
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
     ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
@@ -59,9 +59,9 @@ module.exports = {
       link: 'https://github.com/Zephyrccc' // 可选的
     },
     blogger:{ // 博主信息，显示在首页侧边栏
-      avatar: '/img/Zephyr.jpeg',
+      avatar: '/img/Zephyr.jpg',
       name: 'Zephyr',
-      slogan: 'human'
+      slogan: "偷得浮生半日闲"
     },
     social:{ // 社交图标，显示于博主信息栏和页脚栏
       // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
