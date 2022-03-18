@@ -7,6 +7,8 @@ node_modules
 
 # macos
 .DS_Store
+
+
 # vuepress 
 docs/.vuepress/dist
 
