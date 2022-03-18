@@ -9,7 +9,7 @@ bannerBg: custom #custom自定义 # auto => 网格纹背景(有bodyBgImg时无�
 
 features: # 可选的
   - title: 笔记
-    details: 数据结构、计算机网络等学习笔记
+    details: 计算机相关内容学习笔记
     link: /course/ # 可选
     imgUrl: /img/course.png # 可选
   - title: 技术
