@@ -1,7 +1,4 @@
 
-
-[mssql注入指令 - vigarbuaa - 博客园 (cnblogs.com)](https://www.cnblogs.com/vigarbuaa/p/3371500.html)
-
 爆表名
 
 -1' union select 1,database(),group_concat(table_name) from information_schema.tables where table_schema=database() --+
