@@ -2,15 +2,19 @@
 package-lock.json
 node_modules
 
+# yarn
+yarn.lock
+
+pnpm-lock.yaml
+
 # vscode
 .vscode
 
-# macos
-.DS_Store
-
-
-# vuepress 
+# vuepress
 docs/.vuepress/dist
 
 # 百度链接推送
 urls.txt
+
+# mac
+.DS_Store

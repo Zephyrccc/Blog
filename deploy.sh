@@ -19,7 +19,7 @@ else
   msg='来自github actions的自动部署'
   githubUrl=https://Zephyrccc:${GITHUB_TOKEN}@github.com/Zephyrccc/Zephyrccc.github.io.git
   git config --global user.name "Zephyrccc"
-  git config --global user.email "ZephyrChenWork@outlook.com"
+  git config --global user.email "ZephyrChen@outlook.com"
 fi
 git init
 git add -A
