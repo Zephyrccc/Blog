@@ -14,7 +14,7 @@ cd docs/.vuepress/dist
 
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:Zephyrccc/Zephyrccc.github.io.git
+  githubUrl=git@github.com:Zephyrccc/Blog.git
 else
   msg='来自github actions的自动部署'
   githubUrl=https://Zephyrccc:${GITHUB_TOKEN}@github.com/Zephyrccc/Zephyrccc.github.io.git
